@@ -35,7 +35,7 @@ def calculator():
         more = input("Do you want add more number? (Yes/No): ")
 
         if more.lower() == 'no':
-            result
+            print(result)
             break
 
         else:
@@ -56,7 +56,6 @@ def calculator():
 
                 else:
                     result /= extra
-    print(result)
 
 
 calculator()
